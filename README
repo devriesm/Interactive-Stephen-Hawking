@@ -2,6 +2,7 @@ Works as follows:
 1. Send a textmessage to a google voice number.
 2. Android polls for new sms messages, dumps into a sqlite db.
 3. Android uses text to speech to speak the sms message.
+4. LEDControlActivity allows the android device to switch modes on the LED matrix boards over bluetooth.
 
 
 Parts:
