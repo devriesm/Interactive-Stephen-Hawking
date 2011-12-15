@@ -13,3 +13,5 @@ Parts:
 Arduino code probably shouldn't be reused. It's pretty rough and I would only use it for reference.  The RGBMatrix arduino library was modified to allow the use of numbers, so you'll want add numbers to the RGB.h file. http://www.sparkfun.com/tutorials/201
 
 Android code still has some bugs (memory leaks, sqlite code isn't the best, etc), but is pretty stable.  The google voice java library was tweaked a bit (theres no need to store a username/password, just get the auth token) so it is included in the code.
+
+Please note that text to speech on android 4.0 (Ice Cream Sandwhich) and above will need text to speech modified as noted here: http://android-developers.blogspot.com/2011/10/ics-and-non-public-apis.html
