@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IStephenHawking</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="authentication_copy">This applicaiton requires access to your Google Voice account.  Please enter your Google email address and password so we can authenticate you.</string>
+    <string name="authenticating_copy">Authenticating...</string>
+    <string name="not_valid_email">Please enter a valid email address.</string>
+    <string name="failed_login">Failed to login.  Check your email address and password.</string>
+    <string name="loading_sms_threads">Loading SMS Threads</string>
+    <string name="mark_all_read">Mark All Read</string>
+    <string name="view_sms">View SMS</string>
+    <string name="control_leds">Control LEDS</string>
+    <string name="predetermined_words">Predetermined Words</string>
+    <string name="custom_speak">Custom Speak</string>
+    <string name="disable_background_speak">Disable Background Speak</string>
+    <string name="enable_background_speak">Enable Background Speak</string>
+    <string name="mode_normal">Normal Mode</string>
+    <string name="mode_party">Party Mode</string>
+    <string name="mode_strobe">Strobe Mode</string>
+    <string name="mode_applause">Applause Mode</string>
+    <string name="mode_boo">Boo Mode</string>
+    <string-array name="predetermined_words_array">
+        <item >Yes.</item>
+        <item >No.</item>
+        <item >Bring me a sammich.</item>
+        <item >I will end you.</item>
+        <item >You want a piece of me?</item>
+        <item >Okay.</item>
+        <item >What?</item>
+        <item >What did you say?</item>
+        <item >Shut up.</item>
+        <item >Shhh.</item>
+        <item >Moo.</item>
+        <item >Blah blah.</item>
+        <item >I dont know</item>
+        <item >I need a drink.</item>
+        <item >Someone get me a drink.</item>
+    </string-array>
+    <string name="custom_text_hint">Enter your text here</string>
+    <string name="speak">Speak</string>
+
+</resources>

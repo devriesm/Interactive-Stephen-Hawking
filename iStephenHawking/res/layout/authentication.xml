@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+>
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:orientation="vertical"
+		android:padding="10dp"
+	>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/authentication_copy"
+			android:textSize="16sp"
+			android:paddingBottom="10dp"
+		/>
+		
+		<EditText
+			android:id="@+auth/username"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:maxLines="1"
+			android:inputType="textEmailAddress"
+			android:hint="@string/email_address"
+		/>
+		<EditText
+			android:id="@+auth/password"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:maxLines="1"
+			android:inputType="textPassword"
+			android:hint="@string/password"
+		/>
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+		>
+			<Button
+				android:id="@+auth/okay_btn"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@android:string/ok"
+			/>
+			<Button
+				android:id="@+auth/cancel_btn"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@android:string/cancel"
+			/>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout> 
