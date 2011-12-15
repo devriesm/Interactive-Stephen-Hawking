@@ -1,0 +1,8 @@
+Parts:
+2 Arduino Unos
+6 RGBMatrix boards with backpack (tried seven, but was having power issues) from sparkfun.
+1 Bluesmirf Bluetooth modem.
+
+Arduino code probably shouldn't be reused. It's pretty rough and I would only use it for reference.  The RGBMatrix arduino library was modified to allow the use of numbers, so you'll want add numbers to the RGB.h file. http://www.sparkfun.com/tutorials/201
+
+Android code still has some bugs (memory leaks, etc), but is pretty stable.  The google voice java library was tweaked a bit (theres no need to store a username/password, just get the auth token) so it is included in the code.
