@@ -15,3 +15,5 @@ Arduino code probably shouldn't be reused. It's pretty rough and I would only us
 Android code still has some bugs (memory leaks, sqlite code isn't the best, etc), but is pretty stable.  The google voice java library was tweaked a bit (theres no need to store a username/password, just get the auth token) so it is included in the code.
 
 Please note that text to speech on android 4.0 (Ice Cream Sandwhich) and above will need text to speech modified as noted here: http://android-developers.blogspot.com/2011/10/ics-and-non-public-apis.html
+
+Me winning Best Costume: http://www.flickr.com/photos/mark_devries/6516531357/in/photostream
